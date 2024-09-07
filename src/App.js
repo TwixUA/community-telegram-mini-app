@@ -26,7 +26,7 @@ function App() {
     const tg = window.Telegram?.WebApp;
     if (tg && tg.HapticFeedback) {
       // Викликаємо легкий вібраційний відгук
-      tg.HapticFeedback.impactOccurred('light'); // 'light', 'medium' або 'heavy'
+      tg.HapticFeedback.impactOccurred('heavy'); // 'light', 'medium' або 'heavy'
     }
   };
 
@@ -39,7 +39,7 @@ function App() {
           <p>Нікнейм: @{user.username}</p>
           <p>ID: {user.id}</p>
           <img
-            src={user.photo_url || "https://via.placeholder.com/150"}
+            src={user.photo_url || "https://cdn.prod.website-files.com/625816a3416990dd61391b9b/66c4d90bd4b9b8957e7bdad4_chromatic-17.avif"}
             alt="User Avatar"
             style={{ borderRadius: '50%', marginTop: '20px', width: '100px', height: '100px', cursor: 'pointer' }}
             onClick={handleAvatarClick}  // Додаємо подію кліку для аватара
