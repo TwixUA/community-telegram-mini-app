@@ -21,6 +21,15 @@ function App() {
     }
   }, []);
 
+   // Виклик HapticFeedback при натисканні
+   const handleAvatarClick = () => {
+    const tg = window.Telegram?.WebApp;
+    if (tg && tg.HapticFeedback) {
+      // Викликаємо легкий вібраційний відгук
+      tg.HapticFeedback.impactOccurred('light'); // 'light', 'medium' або 'heavy'
+    }
+  };
+
   return (
     <div style={{ padding: '20px', textAlign: 'center' }}>
       {user ? (
