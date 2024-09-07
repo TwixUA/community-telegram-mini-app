@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Гарантує, що ширина і висота включає падінг і бордери */
+  }
+  
+  /* HTML і body будуть займати 100% висоти і ширини */
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black; /* Чорний фон */
+    color: white; /* Білий текст */  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  }
+
+  
+  /* Контейнер для всього додатка */
+  body {
+    padding: 0 16px; /* Відступи 16px від лівого та правого краю */
+    margin: 0;
+  }
+  
+  /* Встановлюємо максимальну ширину для контенту */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
