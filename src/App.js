@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { setupTelegramTheme } from './theme'; 
 
 function App() {
   const [user, setUser] = useState(null);
