@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Гарантує, що ширина і висота включає падінг і бордери */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* Стандартний */
   }
   
   /* HTML і body будуть займати 100% висоти і ширини */
