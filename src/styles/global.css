@@ -37,3 +37,12 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .avatar {
+    transition: transform 0.1s ease; /* Додаємо плавний перехід */
+  }
+  
+  .avatar:active {
+    transform: scale(0.98); /* Зменшення аватарки до 98% при натисканні */
+  }
+  
