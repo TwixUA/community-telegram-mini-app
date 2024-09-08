@@ -45,7 +45,7 @@ function App() {
   };
 
   return (
-    <div style={{ padding: '20px', textAlign: 'center' }}>
+    <div className="container"> {/* Додаємо клас container */}
       {user ? (
         <div>
           <h1>Привіт, {user.first_name}!</h1>

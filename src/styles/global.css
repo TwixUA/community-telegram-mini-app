@@ -34,8 +34,12 @@
   
   /* Встановлюємо максимальну ширину для контенту */
   .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Вирівнюємо елементи по вертикалі */
+    justify-content: center; /* Центруємо по вертикалі */
+    align-items: center; /* Центруємо по горизонталі */
+    height: 100vh; /* Робимо висоту контейнера рівною висоті екрану */
+    text-align: center;
   }
 
   .avatar {
