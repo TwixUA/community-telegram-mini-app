@@ -8,6 +8,9 @@ function App() {
     // Перевіряємо, чи є об'єкт Telegram WebApp
     const tg = window.Telegram?.WebApp;
 
+    // Налаштування теми через Telegram WebApp API
+    setupTelegramTheme();
+
     if (tg) {
       // Використовуємо дані з Telegram
       const userData = tg.initDataUnsafe?.user;
