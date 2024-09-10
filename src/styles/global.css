@@ -13,9 +13,7 @@
     height: 100%;
     width: 100%;
     background-color: black; /* Чорний фон */
-    color: white; /* Білий текст */  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    color: white; /* Білий текст */  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   }
